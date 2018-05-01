@@ -35,7 +35,6 @@ class Play
 
 
 
-  end
 
   def self.find_by_playwright(name)
     playwright = Playwright.find_by_name(name)
